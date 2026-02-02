@@ -5,6 +5,7 @@ const articlesRoutes = require('./routes/articles');
 
 const app = express();
 
+
 // Connect to MongoDB (replace <connection_string> with your actual string)
 mongoose.connect('mongodb+srv://bhavanipatil3:<db_password>@learnmongo.cutsv.mongodb.net/?retryWrites=true&w=majority&appName=learnMongo', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected'))
