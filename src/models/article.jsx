@@ -11,6 +11,7 @@ const ArticleSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    
 
     // Categorization fields
     category: {
